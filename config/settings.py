@@ -48,7 +48,7 @@ config = {
         "enabled": True,
         "lookback_hours": 168,
         "predict_hours": 24,
-        "min_confidence": 0.65,
+        "min_confidence": 0.55,
         "retrain_interval": 21600,
         "ensemble_enabled": True,
         "deep_learning_enabled": True,
