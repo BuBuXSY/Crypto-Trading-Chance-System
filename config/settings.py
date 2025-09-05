@@ -33,13 +33,16 @@ config = {
     
     # ============= 信号质量配置 =============
     "signal_quality": {
-        "min_score_weak": 8,
-        "min_score_medium": 10,
-        "min_score_strong": 12,
-        "min_score_vip": 15,
-        "require_advantage": 1.3,
+        "min_score_weak": 5,
+        "min_score_medium": 7,
+        "min_score_strong": 10,
+        "min_score_vip": 13,
+        "require_advantage": 1.2,
     },
     
+    # 缩短冷却时间
+    "signal_cooldown_seconds": 1800,  # 新增：30分钟冷却
+        
     # ============= AI预测配置 =============
     "ai_prediction": {
         "enabled": True,
