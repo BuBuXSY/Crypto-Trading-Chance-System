@@ -1,0 +1,79 @@
+# 环境变量和配置
+.env
+*.env
+config.ini
+
+# API密钥和敏感信息
+**/api_keys.py
+**/secrets.py
+**/*secret*
+**/*key*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
+*.log
+logs/
+trading_*.log
+signals_*.json
+failed_messages.json
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 数据文件
+data/
+datasets/
+*.csv
+*.json
+backups/
+
+# 模型文件
+models/
+*.pkl
+*.model
+*.h5
+
+# 临时文件
+temp/
+tmp/
+cache/
